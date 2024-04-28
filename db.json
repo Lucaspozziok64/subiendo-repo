@@ -1,0 +1,32 @@
+{
+  "alumnos": [
+    {
+      "id": 1,
+      "name": "Lucas Ivan",
+      "apellido": "Figueroa Alcorta",
+      "year": 22,
+      "dni": 43566719
+    },
+    {
+      "id": 2,
+      "name": "Esteban",
+      "apellido": "Medina",
+      "year": 30,
+      "dni": 30677891
+    },
+    {
+      "id": 3,
+      "name": "Martin",
+      "apellido": "Espindola",
+      "year": 25,
+      "dni": 20677981
+    },
+    {
+      "id": 4,
+      "name": "Exequiel",
+      "apellido": "Fernandez",
+      "year": 30,
+      "dni": 18677791
+    }
+  ]
+}

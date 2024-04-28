@@ -1,0 +1,26 @@
+GET http://localhost:3000/alumnos HTTP/1.1
+
+###
+GET http://localhost:3000/alumnos/4 HTTP/1.1
+
+###
+POST http://localhost:3000/alumnos HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "Hector",
+    "apellido": "Figueroa",
+    "year": 40,
+    "dni": 18789123
+}
+
+###
+PUT http://localhost:3000/alumnos/4 HTTP/1.1
+Content-Type: application/json
+
+{
+    "year": 30
+}
+
+###
+DELETE http://localhost:3000/alumnos/5 HTTP/1.1
